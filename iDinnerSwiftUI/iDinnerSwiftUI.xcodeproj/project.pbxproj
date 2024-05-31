@@ -16,6 +16,7 @@
 		149244752C0A4480000CF573 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244712C0A4480000CF573 /* Order.swift */; };
 		149244762C0A4480000CF573 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244722C0A4480000CF573 /* Menu.swift */; };
 		149244782C0A4CB7000CF573 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244772C0A4CB7000CF573 /* ItemRow.swift */; };
+		1492447A2C0A817E000CF573 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244792C0A817E000CF573 /* ItemDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		149244712C0A4480000CF573 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		149244722C0A4480000CF573 /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		149244772C0A4CB7000CF573 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		149244792C0A817E000CF573 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				149244712C0A4480000CF573 /* Order.swift */,
 				149244652C0A445B000CF573 /* Assets.xcassets */,
 				149244672C0A445B000CF573 /* Preview Content */,
+				149244792C0A817E000CF573 /* ItemDetails.swift */,
 			);
 			path = iDinnerSwiftUI;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				149244622C0A4459000CF573 /* iDinnerSwiftUIApp.swift in Sources */,
 				149244752C0A4480000CF573 /* Order.swift in Sources */,
 				149244782C0A4CB7000CF573 /* ItemRow.swift in Sources */,
+				1492447A2C0A817E000CF573 /* ItemDetails.swift in Sources */,
 				149244742C0A4480000CF573 /* Helper.swift in Sources */,
 				149244762C0A4480000CF573 /* Menu.swift in Sources */,
 			);

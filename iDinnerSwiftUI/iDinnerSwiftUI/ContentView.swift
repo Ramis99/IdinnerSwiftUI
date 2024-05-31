@@ -16,11 +16,17 @@ struct ContentView: View {
                 ForEach(menu) { section in
                     Section(section.name) {
                         ForEach(section.items) { items in
-                            ItemRow(item: items)
+                            NavigationLink(value: items) {
+                                ItemRow(item: items)
+                            }
                         }
                     }
                     
                 }
+            })
+            .navigationDestination(for: MenuItem.self, destination: { item in
+                ItemDetails(item: item)
+                
             })
             .navigationTitle("Menu")
             .listStyle(.automatic)
