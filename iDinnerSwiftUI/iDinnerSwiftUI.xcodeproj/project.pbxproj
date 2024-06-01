@@ -18,6 +18,7 @@
 		149244782C0A4CB7000CF573 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244772C0A4CB7000CF573 /* ItemRow.swift */; };
 		1492447A2C0A817E000CF573 /* ItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149244792C0A817E000CF573 /* ItemDetails.swift */; };
 		1492447C2C0A9108000CF573 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492447B2C0A9108000CF573 /* OrderView.swift */; };
+		1492447E2C0A94F8000CF573 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492447D2C0A94F8000CF573 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		149244772C0A4CB7000CF573 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		149244792C0A817E000CF573 /* ItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetails.swift; sourceTree = "<group>"; };
 		1492447B2C0A9108000CF573 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		1492447D2C0A94F8000CF573 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				149244772C0A4CB7000CF573 /* ItemRow.swift */,
 				149244792C0A817E000CF573 /* ItemDetails.swift */,
 				1492447B2C0A9108000CF573 /* OrderView.swift */,
+				1492447D2C0A94F8000CF573 /* MainView.swift */,
 				149244702C0A4480000CF573 /* Helper.swift */,
 				1492446F2C0A4480000CF573 /* menu.json */,
 				149244722C0A4480000CF573 /* Menu.swift */,
@@ -160,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				149244642C0A4459000CF573 /* ContentView.swift in Sources */,
+				1492447E2C0A94F8000CF573 /* MainView.swift in Sources */,
 				1492447C2C0A9108000CF573 /* OrderView.swift in Sources */,
 				149244622C0A4459000CF573 /* iDinnerSwiftUIApp.swift in Sources */,
 				149244752C0A4480000CF573 /* Order.swift in Sources */,
